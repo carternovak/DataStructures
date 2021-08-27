@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class yea {
+public class RandomDNA {
 
     public static void main(String args[])
     {
