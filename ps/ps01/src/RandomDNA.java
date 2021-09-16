@@ -13,7 +13,6 @@ public class RandomDNA {
             int r = rnd.nextInt(4);
             result += dnaStrand[r];
         }
-        System.out.println(result);
 
         return result;
     }
@@ -25,8 +24,8 @@ public class RandomDNA {
         {
             System.out.println("");
             myDNAstring = myRandomDNA.generateDNAstring(x);
-            System.out.println("a DNA sequence " + x + " characters long: " + myDNAstring);
+            System.out.println("A DNA sequence " + x + " characters long: " + myDNAstring);
         }
-        //System.out.print(myDNAstring);
+
     }
 }
