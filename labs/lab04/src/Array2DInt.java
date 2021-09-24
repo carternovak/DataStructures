@@ -73,11 +73,13 @@ public class Array2DInt implements Array2DIntADT {
     public void toString1D(int[] arr) {
         System.out.println(Arrays.toString(arr));
     }
+
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 3, 4, 5, 6};
         int[] arr2 = {4, 6, 2, 6, 7, 8};
         System.out.println("----------------------");
         System.out.println("Method Test 1");
+
         Array2DInt testArr = new Array2DInt(6,6);
         testArr.set(20, 3, 4);
         testArr.set(39, 1, 2);
@@ -96,6 +98,7 @@ public class Array2DInt implements Array2DIntADT {
         int[] arr4 = {4, 6, 2, 6, 7, 8, 9, 0};
         System.out.println("----------------------");
         System.out.println("Method Test 2");
+
         Array2DInt testArr2 = new Array2DInt(8,8);
         testArr2.set(35, 2, 0);
         testArr2.set(68, 4, 5);
@@ -114,6 +117,7 @@ public class Array2DInt implements Array2DIntADT {
         int[] arr6 = {7, 1, 2, 6, 7};
         System.out.println("----------------------");
         System.out.println("Method Test 3");
+
         Array2DInt testArr3 = new Array2DInt(4,4);
         testArr3.set(42, 2, 0);
         testArr3.set(13, 3, 2);
