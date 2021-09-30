@@ -135,7 +135,7 @@ public class SimpleBST <K extends Comparable<?super K>> {
 
         // TODO for C343/Fall 2021 - Lab Task 05 Task B and C
         // see instructions
-        
+
         System.out.println("Test Case 2 -----------------");
         SimpleBST<Integer> tree2 = new SimpleBST<Integer>();
         Integer[] keys2 = {36, 24, 13, 27, 49, 42, 53, 39, 45};
