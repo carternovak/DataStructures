@@ -1,0 +1,4 @@
+Problem Set 5 (Parts A, C and D)
+A. BFS
+C. A-C, C-G, G-D, A-E, A-F, A-D, D-B, B-G, G-C
+D. A-G, G-B, B-C, G-D, D-E, D-F
