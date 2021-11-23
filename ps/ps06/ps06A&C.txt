@@ -1,0 +1,6 @@
+A. Tree-based Indexing
+1. 4
+2. 4
+
+C. Kruskal's algorithm
+D-F, A-D, A-E, A-B, B-C
